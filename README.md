@@ -16,7 +16,61 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
+ Boolean function minimization is the process of simplifying Boolean algebraic
+ expressions to reduce the number of logic gates and complexity in a digital circuit,
+ leading to more efficient, faster, and less costly hardware
+ 
+ For minimizing Boolean expressions,we can use a set of rules and laws (like distributive,
+ associative, and complement laws) to simplify Boolean expressions. This method
+ focuses on applying algebraic manipulations to reduce the complexity of the expression
+ by eliminating redundant terms.
+ 
+ Identity Law A ⋅ 1 = A, A + 0 = A
+ 
+ Null Law A ⋅ 0 = 0, A + 1 = 1
+ 
+ Idempotent Law A ⋅ A = A, A + A = A
+ 
+ Complement Law A ⋅ A′ = 0, A + A' = 1
+ 
+ Distributive Law A ⋅ (B + C) = A ⋅ B + A ⋅ C
+ 
+ De Morgan’s Law (A ⋅ B)′ = A′ + B', (A + B)′ = A′ ⋅ B′
+ 
+ Absorption Law A ⋅ (A + B) = A, A + (A ⋅ B) = A
+ 
+ Associative Law A + (B + C) = (A + B) + C, A.(B.C) = (A.B).C
+ 
+ Commutative law A B = B A,A + B = B + A
+
 **Logic Diagram**
+
+Identity law
+![identity](https://github.com/user-attachments/assets/04af0b03-205a-4e89-8129-fd8481b13603)
+
+Idempotent Law
+![idempotent](https://github.com/user-attachments/assets/e82e17a4-41c3-4011-a676-2b850f608743)
+
+Complement Law
+![complement](https://github.com/user-attachments/assets/5d9dec2e-bb3d-4454-89a8-fd8a1aa5b8b7)
+
+Distributive Law
+![distributive](https://github.com/user-attachments/assets/8ebbe80f-ad3c-4ab5-8ea7-41fa5e0d6658)
+
+De Morgan’s Law
+![demorgans](https://github.com/user-attachments/assets/d5d469f1-3b49-4b8d-b66a-be654d08f032)
+
+Absorption Law
+![absorption](https://github.com/user-attachments/assets/6dbc38a0-bd66-4c2b-8983-bbcb9a7ccdf2)
+
+Associative Law
+![associative](https://github.com/user-attachments/assets/9aabe8b5-02f3-4828-9bfa-385b67c88add)
+
+Commutative law
+![commutative](https://github.com/user-attachments/assets/a2a3a14b-d90e-45cc-94a7-401a1c33d70d)
+
+Null law
+![null](https://github.com/user-attachments/assets/05aaab1c-272f-4eb2-90b3-7e5d60c8c9a7)
 
 **Procedure**
 
@@ -32,10 +86,32 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+ Program to implement the given logic function and to verify its operations in quartus
+ using Verilog programming.
+ 
+ i)
+ 
+ module funct1(a,b,c,d,f1);
+ 
+ input a,b,c,d;
+ 
+ output f1;
+ 
+ assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+ 
+ endmodule
+ 
+ ii)
+ 
+ module funct2(w,x,y,z,f2);
+ 
+ input w,x,y,z;
+ 
+ output f2;
+ 
+ assign f2=((~y & z)|( w & y )|(x & y));
+ 
+ endmodule
 
 
 **RTL realization**
