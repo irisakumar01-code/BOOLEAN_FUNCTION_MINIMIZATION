@@ -117,10 +117,21 @@ Null law
 **RTL realization**
 
 **Output:**
+i)
+![image](https://github.com/user-attachments/assets/2c94687d-ec0c-44b9-9391-400f03dba0c3)
+
+2)
+![image](https://github.com/user-attachments/assets/9a71c17d-2bd2-4554-99a7-b945e022558e)
+
 
 **RTL**
 
 **Timing Diagram**
+i)
+![image](https://github.com/user-attachments/assets/2e2239ff-5257-4112-ba2a-3ab806ad66c5)
+
+2)
+![image](https://github.com/user-attachments/assets/18ca26c5-3ada-4805-b671-1b74fdd4021e)
 
 **Result:**
 
