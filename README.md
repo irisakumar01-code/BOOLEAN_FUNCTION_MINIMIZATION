@@ -128,7 +128,7 @@ i)
 
 **Timing Diagram**
 i)
-![image](https://github.com/user-attachments/assets/2e2239ff-5257-4112-ba2a-3ab806ad66c5)
+![image](https://github.com/user-attachments/assets/bd647b2e-3e6f-49aa-ab28-a7b042a0926b)
 
 2)
 ![image](https://github.com/user-attachments/assets/18ca26c5-3ada-4805-b671-1b74fdd4021e)
