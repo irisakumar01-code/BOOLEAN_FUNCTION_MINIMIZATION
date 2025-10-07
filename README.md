@@ -15,15 +15,6 @@ Hardware – PCs, Cyclone II , USB flasher
 **Software – Quartus prime**
 
 **Theory**
-
- Boolean function minimization is the process of simplifying Boolean algebraic
- expressions to reduce the number of logic gates and complexity in a digital circuit,
- leading to more efficient, faster, and less costly hardware
- 
- For minimizing Boolean expressions,we can use a set of rules and laws (like distributive,
- associative, and complement laws) to simplify Boolean expressions. This method
- focuses on applying algebraic manipulations to reduce the complexity of the expression
- by eliminating redundant terms.
  
  Identity Law A ⋅ 1 = A, A + 0 = A
  
@@ -83,7 +74,6 @@ Null law
 4.	Create nodes for inputs and outputs to generate the timing diagram.
 
 5.	For different input combinations generate the timing diagram.
-
 
 **Program:**
  Program to implement the given logic function and to verify its operations in quartus
