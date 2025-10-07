@@ -120,6 +120,7 @@ Null law
 i)
 ![image](https://github.com/user-attachments/assets/2c94687d-ec0c-44b9-9391-400f03dba0c3)
 
+
 2)
 ![image](https://github.com/user-attachments/assets/9a71c17d-2bd2-4554-99a7-b945e022558e)
 
@@ -129,6 +130,7 @@ i)
 **Timing Diagram**
 i)
 ![image](https://github.com/user-attachments/assets/bd647b2e-3e6f-49aa-ab28-a7b042a0926b)
+
 
 2)
 ![image](https://github.com/user-attachments/assets/18ca26c5-3ada-4805-b671-1b74fdd4021e)
